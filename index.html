@@ -702,26 +702,32 @@ finding the minimum of a convex function f(x) = x^2.
 def f(x):
     return x**2
 
-# Step 2: Initialize variables and hyperparameters
+# Step 2: Initialize variables 
+        and hyperparameters
 learning_rate = 0.1  # Learning rate 
 for gradient descent
 x = tf.Variable(5.0)  # Starting 
     point for optimization
-epochs = 100  # Number of optimization iterations
+epochs = 100  # Number 
+    of optimization iterations
 
-# Step 3: Perform gradient descent optimization
+# Step 3: Perform gradien
+    descent optimization
 for epoch in range(epochs):
     with tf.GradientTape() as tape:
         y = f(x)
     gradients = tape.gradient(y, x)
-    x.assign_sub(learning_rate * gradients)
+x.assign_sub(learning_rate * gradients)
 
-# Step 4: Evaluate the optimized solution
+# Step 4: Evaluate the 
+    optimized solution
 optimized_solution = x.numpy()
 minimized_value = f(optimized_solution)
 
-print("Optimized solution:", optimized_solution)
-print("Value at optimized solution:", minimized_value)
+print("Optimized solution:", 
+        optimized_solution)
+print("Value at optimized solution:",
+        minimized_value)
         </code>
     </pre>
          <div class="container">
