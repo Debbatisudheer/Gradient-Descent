@@ -98,7 +98,8 @@
 
         <h2>Gradient Descent Update:</h2>
         <p>Update the parameters of the neural network using the gradients computed in the previous step. The update rule for each parameter is:</p>
-        <pre>new_parameter = old_parameter - learning_rate * gradient</pre>
+        <pre>new_parameter = 
+        old_parameter - learning_rate * gradient</pre>
         <p>Here, the learning rate is a hyperparameter that determines the size of the steps taken during optimization.</p>
 
         <h2>Repeat:</h2>
@@ -119,7 +120,8 @@
 
         <h2>Formula:</h2>
         <p>Gradient descent is based on a mathematical formula that describes how to update the parameters (such as weights and biases) of a model to minimize a given objective function (usually a loss function). The formula for updating the parameters in gradient descent is:</p>
-        <pre>new_parameter = old_parameter - learning_rate × gradient</pre>
+        <pre>new_parameter =
+        old_parameter - learning_rate × gradient</pre>
         <p>Here, the "gradient" represents the derivative of the objective function (loss function) with respect to the parameters. It indicates the direction of the steepest ascent of the function.</p>
         <p>The "learning rate" is a hyperparameter that controls the size of the steps taken in the parameter space during optimization. It determines how quickly or slowly the parameters are updated.</p>
 
@@ -695,7 +697,7 @@ import tensorflow as tf
 
 # Step 1: Define the optimization problem
 # Let's consider a simple optimization problem,
-            finding the minimum of a convex function f(x) = x^2.
+finding the minimum of a convex function f(x) = x^2.
 def f(x):
     return x**2
 
