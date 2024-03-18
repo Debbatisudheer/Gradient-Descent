@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 24px; /* Reduce font size for headings on smaller screens */
+        margin-bottom: 15px; /* Adjust margin for headings on smaller screens */
+    }
+
+    h2 {
+        font-size: 20px; /* Reduce font size for headings on smaller screens */
+        margin-bottom: 10px; /* Adjust margin for headings on smaller screens */
+    }
+
+    p {
+        margin-bottom: 10px; /* Adjust margin for paragraphs on smaller screens */
+    }
+}
